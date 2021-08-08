@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">narzo</string>
+    <string name="favorites">favorites</string>
+    <string name="music">music</string>
+    <string name="places">places</string>
+    <string name="news">news</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_favourites">title_favourites</string>
+    <string name="title_home">title_home</string>
+    <string name="fourthfragment">fourthfragment</string>
+</resources>

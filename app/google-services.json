@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "527469917035",
+    "firebase_url": "https://amino-d882f-default-rtdb.firebaseio.com",
+    "project_id": "amino-d882f",
+    "storage_bucket": "amino-d882f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527469917035:android:5dce015ad4a264d7df922e",
+        "android_client_info": {
+          "package_name": "com.bnp.amino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527469917035-b9c36dtqabujkl42ag7oii3u901v08uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVysLS5iEaVVEruRf_45lNfKjR0_mxsYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527469917035-b9c36dtqabujkl42ag7oii3u901v08uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527469917035:android:589e050f767e470cdf922e",
+        "android_client_info": {
+          "package_name": "com.bnp.narzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527469917035-b9c36dtqabujkl42ag7oii3u901v08uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVysLS5iEaVVEruRf_45lNfKjR0_mxsYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527469917035-b9c36dtqabujkl42ag7oii3u901v08uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

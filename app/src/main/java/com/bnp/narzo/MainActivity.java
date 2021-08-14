@@ -1,9 +1,12 @@
 package com.bnp.narzo;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
-import android.app.Application;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.WindowManager;
 
 import com.google.android.gms.ads.AdListener;
@@ -13,11 +16,12 @@ import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.firebase.FirebaseApp;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
     private AdView mAdView;
+    BottomNavigationView bottomNavigation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,11 +74,34 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.wrapper,new recfragment()).commit();
+        bottomNavigation = findViewById(R.id.bottom_navigation);
+        bottomNavigation.setOnNavigationItemSelectedListener(navigationItemSelectedListener);
+        openFragment(recfragment.newInstance("", ""));
 
     }
+    public void openFragment(Fragment fragment) {
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.wrapper, fragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+    }
+    BottomNavigationView.OnNavigationItemSelectedListener navigationItemSelectedListener =
+            new BottomNavigationView.OnNavigationItemSelectedListener() {
+                @Override public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                    switch (item.getItemId()) {
+                        case R.id.navigation_home:
+                            openFragment(recfragment.newInstance("", ""));
+                            return true;
+                        case R.id.navigation_sms:
+                            openFragment(searchFragment.newInstance("", ""));
+                            return true;
+                        case R.id.navigation_notifications:
+                            openFragment(settingFragment.newInstance("", ""));
+                            return true;
+                    }
+                    return false;
+                }
+            };
 
 
 }

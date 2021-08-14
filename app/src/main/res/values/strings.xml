@@ -9,4 +9,12 @@
     <string name="title_favourites">title_favourites</string>
     <string name="title_home">title_home</string>
     <string name="fourthfragment">fourthfragment</string>
+    <string name="profile">profile</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="string_todo" />
+    <string name="setting">setting</string>
+    <string name="search">search</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="amine">Amine</string>
 </resources>

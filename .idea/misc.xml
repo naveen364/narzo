@@ -3,11 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/drawable-v21/avd_anim.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/drawable/Home.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/drawable/avd_anim.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/drawable/btn.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/drawable/onclickbtn.xml" value="0.19479166666666667" />
         <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/drawable/round_btn.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/activity_main.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/activity_splash.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/fragment_amine.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/fragment_descfragment.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/fragment_recfragment.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/fragment_setting.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/singlerowdesign.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/layout/slider_layout.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Npand/OneDrive/Desktop/narzo/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.17864583333333334" />
       </map>
     </option>
   </component>

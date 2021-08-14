@@ -1,0 +1,43 @@
+<animated-vector xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    tools:targetApi="lollipop">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="500dp"
+            android:height="500dp"
+            android:viewportWidth="500"
+            android:viewportHeight="500">
+            <path
+                android:name="path"
+                android:pathData="M 96.26 98.687 L 94.319 424.254 L 390.111 52.086 L 434.124 450.791 L 338.331 193.186 L 94.966 423.607 M 96.26 98.041 L 160.985 341.406"
+                android:fillColor="#28d6c0"
+                android:strokeColor="#f12b7e"
+                android:strokeWidth="1"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="path">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="700"
+                    android:duration="800"
+                    android:valueFrom="M 96.26 404.19 L 94.319 78.623 L 390.111 450.791 L 434.124 52.086 L 338.331 309.691 L 94.966 79.27 M 96.26 404.836 L 160.985 161.471"
+                    android:valueTo="M 96.26 98.687 L 94.319 424.254 L 390.111 52.086 L 434.124 450.791 L 338.331 193.186 L 94.966 423.607 M 96.26 98.041 L 160.985 341.406"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    tools:targetApi="lollipop" />
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:duration="700"
+                    android:valueFrom="M 96.26 98.687 L 94.319 424.254 L 390.111 52.086 L 434.124 450.791 L 338.331 193.186 L 94.966 423.607 M 96.26 98.041 L 160.985 341.406"
+                    android:valueTo="M 96.26 404.19 L 94.319 78.623 L 390.111 450.791 L 434.124 52.086 L 338.331 309.691 L 94.966 79.27 M 96.26 404.836 L 160.985 161.471"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    tools:targetApi="lollipop" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

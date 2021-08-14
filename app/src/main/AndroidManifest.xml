@@ -3,6 +3,8 @@
     package="com.bnp.narzo">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -13,13 +15,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Narzo">
         <activity
-            android:name=".MainActivity"
-            android:hardwareAccelerated="true">
+            android:name=".splash"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="true">
         </activity>
 
         <meta-data

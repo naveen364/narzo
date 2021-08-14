@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 
@@ -63,9 +64,11 @@ public class recfragment extends Fragment {
         });
         recview.setLayoutManager(layout_manager);
 
+        DatabaseReference fd = FirebaseDatabase.getInstance().getReference();
+
         FirebaseRecyclerOptions<model> options =
                 new FirebaseRecyclerOptions.Builder<model>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Image"), model.class)
+                        .setQuery(fd.child("image").orderByChild("name"), model.class)
                         .build();
 
         adapter = new myadapter(options);
